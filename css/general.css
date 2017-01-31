@@ -1,4 +1,4 @@
-/*General */
+п»ї/*General */
 
 body, html {
 	height: 100%;
@@ -140,7 +140,7 @@ filter: alpha(opacity=95) !important;
   width: 100%;
   background: rgba(240,240,240,.9);
   visibility: hidden;
-  animation: animaciya 1s 1s forwards; /* 5s - это количество секунд по истечении которых появляется сообщение */ 
+  animation: animaciya 1s 1s forwards; /* 5s - СЌС‚Рѕ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРµРєСѓРЅРґ РїРѕ РёСЃС‚РµС‡РµРЅРёРё РєРѕС‚РѕСЂС‹С… РїРѕСЏРІР»СЏРµС‚СЃСЏ СЃРѕРѕР±С‰РµРЅРёРµ */ 
   cursor: pointer;
 }
 @keyframes animaciya {   
@@ -152,14 +152,14 @@ filter: alpha(opacity=95) !important;
   vertical-align: middle;
 }
 #popup div, #popup figcaption, #popup figure:before {
-  max-width: 500px; /* максимальная ширина */ 
+  max-width: 500px; /* РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ С€РёСЂРёРЅР° */ 
   margin: 0 auto;
   border-style: solid; 
   border-color: rgb(88,125,164);
   background: #fff;
 }
-#popup figure:before { /* стиль кнопки "закрыть" */ 
-  content: "закрыть";
+#popup figure:before { /* СЃС‚РёР»СЊ РєРЅРѕРїРєРё "Р·Р°РєСЂС‹С‚СЊ" */ 
+  content: "Р·Р°РєСЂС‹С‚СЊ";
   display: block;
   padding: 0 1%;
   border-width: 4px 4px 0 4px;
@@ -178,7 +178,7 @@ filter: alpha(opacity=95) !important;
   text-transform: uppercase;
   color: rgb(100,100,100);
 }
-#popup figcaption:before { /* стиль восклицательного знака, не поддерживается Google Chrome. Его можно заменить на что-то более приемлемое */ 
+#popup figcaption:before { /* СЃС‚РёР»СЊ РІРѕСЃРєР»РёС†Р°С‚РµР»СЊРЅРѕРіРѕ Р·РЅР°РєР°, РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ Google Chrome. Р•РіРѕ РјРѕР¶РЅРѕ Р·Р°РјРµРЅРёС‚СЊ РЅР° С‡С‚Рѕ-С‚Рѕ Р±РѕР»РµРµ РїСЂРёРµРјР»РµРјРѕРµ */ 
   content: "\26a0 \20 \20";
   color: red;
   font-size: 150%;
